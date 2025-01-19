@@ -218,7 +218,11 @@ margin-inline: auto;
 
 
 
-
+.banner-img{
+  max-width: 475px;
+  
+  margin: auto;
+}
 
 
 
@@ -342,11 +346,7 @@ margin-inline: auto;
 .banner-texts p{
   margin-block: 30px;
 }
-.banner-img{
-  max-width: 475px;
-  
-  margin: auto;
-}
+
 }
 .banner-img{
   object-fit: contain;
