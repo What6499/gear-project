@@ -112,19 +112,29 @@ nav {
   color: var(--clr-primary-dark);
   text-align: center;
   margin-top: 50px;
+ 
+  
 }
 
 .card{
   width: 329px;
   height: 476px;
   padding: 17px 15px 27px 15px;
-  row-gap: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  
   background-color: white;
 
 }
-.card{
-  gap: 1rem;
-  
+.cards{
+  display: grid;
+  /* row-gap: clamp(1rem, 1rem + 1vw, 2rem); */
+  margin-top: 2rem;
+  justify-content: center;
+  max-width: 1110px;
+  grid-template-columns: repeat(auto-fit, 329px);
+  margin-inline:auto ;
+  /* column-gap: 2rem; */
+  gap: clamp(1rem, 2vw, 2rem);
 }
 
 
